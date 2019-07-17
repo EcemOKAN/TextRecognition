@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<com.wonderkiln.camerakit.CameraView
+    android:id="@+id/cameraView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+
+    <com.example.textrecognition.GraphicOverlay
+        android:id="@+id/graphicOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"/>
+
+<Button
+    android:id="@+id/btnOnDevice"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:layout_margin="10dp"
+    android:background="@color/colorPrimary"
+    android:textColor="#fff"
+    android:text="Test Et"/>
+
+</FrameLayout>
